@@ -27,6 +27,7 @@ public class Variables {
             }
         }
         System.out.println(numberOfSeniorStudents);
+
     }
 
     private List<Student> findFromDb() {
@@ -43,10 +44,16 @@ public class Variables {
         return students;
     }
 
+    private void confusingName() {
+        int lO = 100;
+        int sum = 10 + lO;
+    }
+
     public static void main(String[] args) {
         Variables variables = new Variables();
         variables.variablesWithEvilName();
         variables.variablesWithNiceName();
     }
+
 
 }
